@@ -78,7 +78,6 @@ chk()
 def call():
 	os.system('clear')
 	print(nayan)
-	print(Style.BRIGHT+logo)
 	print(G)
 	print(f"{R} | WARNING |  {B}\n\n This tool is very dangerous don't try it on your self\n ")
 	print()
