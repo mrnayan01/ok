@@ -79,7 +79,7 @@ def call():
 	os.system('clear')
 	print(nayan)
 	print(G)
-        print(f"{C}\n{G}Coded by MOHAMMAD NAYAN\n\n{W}{lic}\n\n")
+        print(f"{G}Coded by MOHAMMAD NAYAN\n")
 	print(f"{R}|WARNING|{B}This tool is very dangerous don't try it on your self\n ")
 	print()
 	print ()
