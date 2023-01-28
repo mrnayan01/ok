@@ -116,7 +116,7 @@ def call():
 
 
 	for i in range(amount):
-		requests.get(api,api2)
+		requests.get(api)
 		cc = 88
 		os.system('clear')
 		print(mim)
