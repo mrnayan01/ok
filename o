@@ -105,10 +105,10 @@ def call():
 	print(G)
 	print()
 	print ()
-	n=str(input(f"{Y}Enter Your Country Code [{R}without<{G}+{R}>]: "))
+	#n=str(input(f"{Y}Enter Your Country Code [{R}without<{G}+{R}>]: "))
 	number=str(input(f"{B}Enter Target Number {B}[WITHOUT]{G}<{G}"+n+"> : "))
 
-	api="http://api.mrbomber.tk/wasim.php?phone=+"+n+number
+	api="http://api.mrbomber.tk/wasim.php?phone=88"number
 	api2="http://pikachu.ezyro.com/last.php?phone=+"+n+number
 	
 	amount=int(input(f"{M}Enter Amount : "))
@@ -121,7 +121,7 @@ def call():
 		os.system('clear')
 		print(mim)
 		print(f"{C}         ╔═════════════════════════════════╗")
-		print(f"{C}         ║ {G}Target       :{Y} +"+n + number+"")
+		print(f"{C}         ║ {G}Target       :{Y} +"+ number+"")
 		print(f"{C}         ║ {G}Sent         :{Y} " + str(i+1)+"")
 		print(f"{C}         ║ {G}Coded        :{B} Mohammad Nayan")
 		print(f"{C}         ╚═════════════════════════════════╝")
