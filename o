@@ -112,8 +112,15 @@ def call():
 
 	for i in range(amount):
 		requests.get(api)
+		cc = 88
 		os.system('clear')
 		print(mim)
-		print(str(i+1)+"Call Send")
+		print(str(i+1)+"        Call Send Successful ")
+		print()
+        print(f"{C}╔═════════════════════════════════╗")
+        print(f"{C}║ {G}Target       :{Y} " + cc + " " + number+"")
+        print(f"{C}║ {G}Sent         :{Y} " + str(i+1)+"")
+        print(f"{C}║ {G}Coded   :{B} Mohammad Nayan")
+        print(f"{C}╚═════════════════════════════════╝")
 		
 call()
