@@ -114,6 +114,6 @@ def call():
 		requests.get(api)
 		os.system('clear')
 		print(mim)
-		print(str(i+1)+"        Call Send Successful ")
+		print(str(i+1)+"Call Send Successful ")
 		
 call()
