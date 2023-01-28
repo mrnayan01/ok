@@ -32,6 +32,11 @@ M = Style.BRIGHT+Fore.MAGENTA
 W = Style.BRIGHT+Fore.WHITE
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
+os.system('clear')
+print(f"{R}|WARNING|{B}This tool is very dangerous don't try it on your self ")
+print(f"\n{G}Coded by MOHAMMAD NAYAN\n")
+time.sleep(5)
+
 
 nayan = """
 \033[0;92m╔══════════════════════════════════════════════╗
@@ -47,7 +52,7 @@ nayan = """
 \033[0;92m║═══════════════════════════════════════════║\033[0;32m║\033[1;34m Y\033[0;92m ║
 \033[0;92m║➣\033[0;91m WHATSAPP   :    \033[0;92m      01615298449        ║\033[0;32m║\033[1;93m A\033[0;92m ║
 \033[0;92m║➣\033[0;93m GITHUB     :     \033[0;94m     MR-NAYAN-404       ║\033[0;92m║\033[1;92m N\033[0;92m ║
-\033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    Py3 MARSHAL        ║\033[0;92m║ 😘║
+\033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    CALL BOMBING       ║\033[0;92m║ 😘║
 \033[0;92m╚═══════════════════════════════════════════╝\033[0;92m╚═══╝
 """
 mim ="""
@@ -64,7 +69,7 @@ mim ="""
          \033[0;92m║═══════════════════════════════════════════║\033[0;32m║\033[1;34m Y\033[0;92m ║
          \033[0;92m║➣\033[0;91m WHATSAPP   :    \033[0;92m      01615298449        ║\033[0;32m║\033[1;93m A\033[0;92m ║
          \033[0;92m║➣\033[0;93m GITHUB     :     \033[0;94m     MR-NAYAN-404       ║\033[0;92m║\033[1;92m N\033[0;92m ║
-         \033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    SMS BOMBING        ║\033[0;92m║ 😘║
+         \033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    CALL BOMBING       ║\033[0;92m║ 😘║
          \033[0;92m╚═══════════════════════════════════════════╝\033[0;92m╚═══╝
 """
 
@@ -83,7 +88,7 @@ def chk():
       pass 
     else: 
       print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP ") 
-      os.system('xdg-open  https://wa.me/+8801615298449?text=*Hello*%2C%20*MR.NAYAN*%20*i*%20*want*%20*to*%20*buy*%20*your*%20*command*%20*public*%20*clone*'+id)
+      os.system('xdg-open  https://wa.me/+8801615298449?text=*Hello*%2C%20*MR.NAYAN*%20*i*%20*want*%20*to*%20*use*%20*your*%20*command*%20*call*%20*bombing*'+id)
       time.sleep(3) 
       sys.exit() 
   except: 
@@ -96,17 +101,16 @@ chk()
 def call():
 	os.system('clear')
 	print(nayan)
+	print(f"        {R}|N.B| {R}1 Amount Send 15+ Call ")
 	print(G)
-	print(f"{R}|WARNING|{B}This tool is very dangerous don't try it on your self\n ")
-	print(f"\n{G}Coded by MOHAMMAD NAYAN\n")
 	print()
 	print ()
-	number=str(input("{B}Enter Your Number : "))
+	n=str(input(f"{Y}Enter Your Country Code [{R}without<{G}+{R}>]: "))
+	number=str(input(f"{B}Enter Target Number {B}[WITHOUT]{G}<{G}"+n+"> : "))
 
-	api="http://api.mrbomber.tk/wasim.php?phone=88"+number
-
-
-	amount=int(input("{M}Enter Amount : "))
+	api="http://api.mrbomber.tk/wasim.php?phone=+"+n+number
+	
+	amount=int(input(f"{M}Enter Amount : "))
 
 
 
@@ -115,12 +119,9 @@ def call():
 		cc = 88
 		os.system('clear')
 		print(mim)
-		print(str(i+1)+"        Call Send Successful ")
-		print()
-        print(f"{C}╔═════════════════════════════════╗")
-        print(f"{C}║ {G}Target       :{Y} " + cc + " " + number+"")
-        print(f"{C}║ {G}Sent         :{Y} " + str(i+1)+"")
-        print(f"{C}║ {G}Coded   :{B} Mohammad Nayan")
-        print(f"{C}╚═════════════════════════════════╝")
-		
+		print(f"{C}         ╔═════════════════════════════════╗")
+		print(f"{C}         ║ {G}Target       :{Y} +"+n + number+"")
+		print(f"{C}         ║ {G}Sent         :{Y} " + str(i+1)+"")
+		print(f"{C}         ║ {G}Coded        :{B} Mohammad Nayan")
+		print(f"{C}         ╚═════════════════════════════════╝")
 call()
