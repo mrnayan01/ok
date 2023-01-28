@@ -109,13 +109,14 @@ def call():
 	number=str(input(f"{B}Enter Target Number {B}[WITHOUT]{G}<{G}"+n+"> : "))
 
 	api="http://api.mrbomber.tk/wasim.php?phone=+"+n+number
+	api2="http://pikachu.ezyro.com/last.php?phone=+"+n+number
 	
 	amount=int(input(f"{M}Enter Amount : "))
 
 
 
 	for i in range(amount):
-		requests.get(api)
+		requests.get(api,api2)
 		cc = 88
 		os.system('clear')
 		print(mim)
