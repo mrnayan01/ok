@@ -381,7 +381,7 @@ def rcrack(uid,pwx,tl):
             "sec-ch-ua-platform": "Windows",
             "sec-fetch-dest": 'document',
             "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'cross-site,
+            "sec-fetch-site": 'cross-site',
             "sec-fetch-user": '21',
             "pragma": 'no-cache',
             "priority": 'u=0',
