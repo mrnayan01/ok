@@ -112,6 +112,8 @@ def call():
 
 	for i in range(amount):
 		requests.get(api)
+		os.system('clear')
+		print(mim)
 		print(str(i+1)+"Call Send")
 		
 call()
